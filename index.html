@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/2d87f600bd.js" crossorigin="anonymous"></script>
     <title>Oppenheimer</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
         <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#">CAST</a></li>
+            <li><a href="#cast">CAST</a></li>
             <li><a href="#">REVIEW</a></li>
         </ul>
     </header>
@@ -37,6 +38,109 @@
                 </ul>
             </div>
         </div>
+    </section>
+    <section class="cast" id="cast">
+        <!--  -->
+        <div class="cast-three">
+            <div class="cast-one">
+                <img src="/img/cast1.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Cillian Murphy</h4>
+                    <p class="cast-name">J. Robert Oppenheimer</p>
+                </div>
+            </div>
+            <div class="cast-one">
+                <img src="/img/cast2.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Emily Blunt</h4>
+                    <p class="cast-name">Kitty Oppenheimer</p>
+                </div>
+            </div>
+            <div class="cast-one">
+                <img src="/img/cast3.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Matt Damon</h4>
+                    <p class="cast-name">Leslie Groves</p>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="cast-three">
+            <div class="cast-one">
+                <img src="/img/cast6.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Robert Downey Jr.</h4>
+                    <p class="cast-name">Lewis Strauss</p>
+                </div>
+            </div>
+            <div class="cast-one">
+                <img src="/img/cast4.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Alden Ehrenreich</h4>
+                    <p class="cast-name">Senate Aide</p>
+                </div>
+            </div>
+            <div class="cast-one">
+                <img src="/img/cast5.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Rami Malek</h4>
+                    <p class="cast-name">David Hill</p>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="cast-three">
+            <div class="cast-one">
+                <img src="/img/cast7.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Olivia Thirlby</h4>
+                    <p class="cast-name">Lilli Horning</p>
+                </div>
+            </div>
+            <div class="cast-one">
+                <img src="/img/cast8.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Tom Conti</h4>
+                    <p class="cast-name">Albert Einstein</p>
+                </div>
+            </div>
+            <div class="cast-one">
+                <img src="/img/cast9.jpg" alt="avatar" class="cast-img">
+                <div class="cast-box">
+                    <h4 class="cast-head">Britt Kyle</h4>
+                    <p class="cast-name">Barbara Chevalier</p>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </section>
+    <section class="review">
+        <form action="">
+            <div class="row">
+            <div class="input-group">
+                <input type="text" id="firstName" required>
+                <label for="firstName"><i class="fa-solid fa-user"></i>&nbsp First Name</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="lastName" required>
+                <label for="lastName"><i class="fa-regular fa-user"></i>&nbsp Last Name</label>
+            </div>
+        </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="firstName"><i class="fa-solid fa-envelope"></i>&nbsp Email</label>
+            </div>
+            <!-- <div class="input-group">
+                <input type="text" id="firstName" required>
+                <label for="firstName">First Name</label>
+            </div> -->
+            <div class="input-group">
+                <textarea id="message"rows="8" required></textarea>
+                <label for="message"><i class="fa-regular fa-file-lines"></i>&nbsp Write a Review</label>
+            </div>
+            <button type="submit">Send</button>
+            
+        </form>
     </section>
 </body>
 </html>
